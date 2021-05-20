@@ -117,6 +117,7 @@ export default {
   methods: {
     handlePreset (c) {
       this.colorChange({
+        raw: c,
         hex: c,
         source: 'hex'
       })
